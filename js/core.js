@@ -7,7 +7,7 @@ $(document).ready(function() {
 	// color input
 	$('#color-form input').minicolors({
 		changeDelay			: 200,
-		defaultValue 		: '326DA8',
+		defaultValue 		: 'facd00',
 		letterCase 			: 'uppercase',
 		change 				: function(hex, opacity) {
 			$('header').animate({ backgroundColor : hex });
@@ -179,10 +179,10 @@ $.fn.shadeColor = function(color, percent) {
 
 $.fn.gradient = function(options) {
 	var defaults = {
-		firstColor 		: '#5893ce',
-		secondColor 	: '#326da8',
-		textColor 		: '#d8ffff',
-		borderColor 	: '#0c4782'
+		firstColor 		: '#fff326',
+		secondColor 	: '#facd00',
+		textColor 		: '#ffffa6',
+		borderColor 	: '#d4a700'
 	}
 
 	var options = $.extend({}, defaults, options);
@@ -204,10 +204,10 @@ $.fn.gradient = function(options) {
 
 $.fn.gradientCSS = function(options) {
 	var defaults = {
-		firstColor 		: '#5893ce',
-		secondColor 	: '#326da8',
-		textColor 		: '#d8ffff',
-		borderColor 	: '#0c4782'
+		firstColor 		: '#fff326',
+		secondColor 	: '#facd00',
+		textColor 		: '#ffffa6',
+		borderColor 	: '#d4a700'
 	}
 
 	var options = $.extend({}, defaults, options);
